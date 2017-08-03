@@ -6,5 +6,8 @@ package com.example.amitrai.daggerkotlindemo.utility
 class AppConstants {
     val base_url = "testing server"
 
+    fun getTasks(): String{
+        return  "No task"
+    }
 
 }
